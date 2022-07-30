@@ -27,7 +27,7 @@ describe('Testes da função getOpeningHours', () => {
     expect(getOpeningHours('Wednesday', '09:00-PM')).toEqual(mensagemFechado);
   });
 
-  it('Se nao receber parametro retorna undefined', () => {
+  it('Se nao receber parametro retorna defined', () => {
     expect(getOpeningHours()).toBeDefined();
   });
 
